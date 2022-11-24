@@ -4,7 +4,7 @@ import React from 'react';
 const Checker = ({color}: any) => {
   return (
     <TouchableOpacity>
-      <Text>{color}</Text>
+      <Text style={{color: color}}>{color}</Text>
     </TouchableOpacity>
   );
 };
